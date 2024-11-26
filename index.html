@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="icon" href="mylabel.png">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    
+    <form method="POST" id="form" class="form">
+
+        <label class="form__title">WEWE</label>
+
+        <input type="hidden" name="access_key" value="1efe8b0f-ff84-4197-a50f-9bd7e2749b7e" id="form__access-key">
+    
+        <label for="Name" class="form-field__title">Name</label>
+        <input class="form-field" type="text" name="name" required>
+
+        <label for="email" class="form-field__title">Email</label>
+        <input class="form-field" type="email" name="email" required>
+
+        <label for="message" class="form-field__title">Message</label>
+        <textarea class="form-field__textarea" name="message" rows="5" maxlength="100" required></textarea>
+    
+        <button type="submit" class="form__btn">Submit Form</button>
+    
+        <div class="form__result" id="result-mark"></div>
+    
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

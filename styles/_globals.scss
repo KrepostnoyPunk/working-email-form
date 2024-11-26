@@ -1,0 +1,24 @@
+body{
+    font-family: var(--font-main);
+    font-weight: 500;
+
+    font-size: 18px;
+
+    color: var(--light-color);
+    background: var(--bg-color);
+
+    @include flex-center;
+}
+
+* {
+    transition-duration: var(--transition-duration);
+}
+
+input,
+textarea{
+    outline: none;
+    border: none;
+    border-radius: var(--input-border-radius);
+    padding: 0 12px;
+    resize: vertical;
+}

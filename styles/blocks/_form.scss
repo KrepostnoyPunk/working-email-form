@@ -1,0 +1,46 @@
+.form{
+    @include flex-center;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid var(--accent-color);
+    padding: 40px 40px 15px 40px;
+    border-radius: var(--card-border-radius);
+    width: 400px;
+
+    &__title{
+        border-bottom: 4px dotted var(--accent-color);
+    }
+
+    &-field{
+        width: 100%;
+        height: var(--input-height);
+
+        &__textarea{
+            width: 100%;
+        }
+    }
+
+    &-field__title{
+        align-self: start;
+        border-bottom: 3px solid var(--accent-color);
+    }
+
+    &__btn{
+        @include reset-btn;
+        padding: var(--btn-padding);
+        border-radius: var(--btn-border-radius);
+        background-color: var(--accent-color);
+        box-shadow: var(--box-shadow);
+        cursor: pointer;
+
+        &:hover{
+            opacity: .7;
+        }
+
+        &:active{
+            scale: .9;
+        }
+    }
+}

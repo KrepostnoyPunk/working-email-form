@@ -1,0 +1,27 @@
+:root{
+    // цвета
+    --dark-color: #000;
+    --accent-color: #ffa500;
+    --light-color: rgb(243, 239, 239);
+    --bg-color: linear-gradient(to right, #283048, #859398);
+
+    // радиус рамок
+    --card-border-radius: 14px;
+    --input-border-radius: 12px;
+    --btn-border-radius: 10px;
+
+    // шрифты
+    --font-main: monospace, sans-serif;
+
+    // тени
+    --box-shadow: 2px 2px 2px 2px var(--dark-color);
+
+    // отступы внутри кнопок
+    --btn-padding: 8px;
+
+    // высоты элементов
+    --input-height: 40px;
+
+    // длительность переходов
+    --transition-duration: .3s;
+}
